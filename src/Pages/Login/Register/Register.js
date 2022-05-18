@@ -42,7 +42,7 @@ const Register = () => {
         />
 
         <input
-          className="w-50 mx-auto btn btn-primary mt-2"
+          className="w-100 mx-auto btn btn-primary mt-2"
           type="submit"
           value="Register"
         />

@@ -31,6 +31,11 @@ const Login = () => {
     navigate("/register");
   };
 
+  let errorElement;
+  if (error) {
+    errorElement = <p className="text-danger">Error: {error?.message}</p>;
+  }
+
   return (
     <div className="container w-50 mx-auto">
       <h2 className="text-primary text-center mt-2">Please Login</h2>
@@ -57,13 +62,11 @@ const Login = () => {
             required
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
+        <Button variant="primary w-100 mx-auto d-block mb-2" type="submit">
+          Login
         </Button>
       </Form>
+      {errorElement}
       <p>
         New to this Website{" "}
         <Link
