@@ -7,7 +7,7 @@ import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Register = () => {
   const [createUserWithEmailAndPassword, user, loading, error] =
-    useCreateUserWithEmailAndPassword(auth);
+    useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
   const navigate = useNavigate();
   const navigateLogin = () => {
@@ -54,13 +54,6 @@ const Register = () => {
           name="terms"
           id="terms"
         />
-
-        {/* <label
-          className={agree ? "ps-2 text-primary" : " ps-2 text-danger"}
-          htmlFor="terms"
-        >
-          Accept Terms and Conditions
-        </label> */}
 
         <label className={`ps-2 ${agree ? "" : "text-danger"}`} htmlFor="terms">
           Accept Terms and Conditions
