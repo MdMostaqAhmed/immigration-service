@@ -41,6 +41,9 @@ const Register = () => {
           required
         />
 
+        <input type="checkbox" name="terms" id="terms" />
+        <label htmlFor="terms">Accept Terms and Conditions</label>
+
         <input
           className="w-100 mx-auto btn btn-primary mt-2"
           type="submit"
