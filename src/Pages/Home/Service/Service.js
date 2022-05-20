@@ -24,7 +24,7 @@ const Service = ({ service }) => {
         onClick={() => navigateToServiceDetail(id)}
         className="btn btn-primary"
       >
-        Book Appointment for : {name}
+        {name} Details
       </button>
     </div>
   );
