@@ -16,25 +16,26 @@ const Banner = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={banner1} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>IMMIGRATION</h3>
+          <p>Special Immigration service for vip clients</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={banner2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>STUDY PERMIT</h3>
+          <p>Millions of applicants around the world are dreaming</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={banner3} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>SPONSORSHIP</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Moving abroad and leaving your loved ones on opposite coast is not
+            easy.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

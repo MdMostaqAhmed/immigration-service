@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="mt-5 text-center container">
       <p>
-        <small>Copyright &copy; {year}</small>
+        <small> &copy; {year} Capital immigration. All Rights Reserved.</small>
       </p>
     </footer>
   );
