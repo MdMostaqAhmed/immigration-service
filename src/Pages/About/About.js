@@ -1,11 +1,12 @@
 import React from "react";
 import profileImage from "../../../src/images/profile-pic.jpg";
+import "./About.css";
 
 const About = () => {
   return (
     <div>
       <h2>About Me</h2>
-      <div className="mx-auto w-25">
+      <div className="mx-auto w-25 about">
         <img src={profileImage} alt="" />
       </div>
       <p className="container mt-3">
@@ -19,6 +20,14 @@ const About = () => {
         client. To provide the necessary specialized knowledge and experience to
         deal with criminal and regulatory inquiries, investigations, and
         prosecutions.
+      </p>
+      <p className="container mt-5">
+        <strong>Contact Information</strong>
+        <br />
+        Jeffery Elina, <br />
+        Toronto Immigration Lawyer 59 Berkeley St. Toronto, <br />
+        Ontario, <br /> M5A 2W5 Tel: +1 (416) 944-3267 <br /> Fax:+1 (416)
+        944-1675 info@matthewjeffery.com
       </p>
     </div>
   );
